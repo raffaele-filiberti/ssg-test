@@ -1,9 +1,9 @@
 version: "3.9"
 
-services: 
+services:
   app:
     build: .
-    expose: 
+    expose:
       - 80
     labels:
       - "traefik.enable=true"
