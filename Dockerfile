@@ -1,9 +1,10 @@
-FROM node AS dependencies
+FROM node:12-alpine AS dependencies
 COPY ./package.json /root/.
+COPY ./yarn.lock /root/.
 WORKDIR /root
 RUN yarn
 
-FROM node AS builder
+FROM node:12-alpine AS builder
 COPY ./ /root/.
 COPY --from=dependencies /root/node_modules /root/node_modules
 WORKDIR /root
