@@ -1,18 +1,28 @@
 {
+  "version": "1.0.0",
   "name": "with-static-export",
-  "dependencies": {
-    "next": "latest",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "serve": "11.3.2"
-  },
   "scripts": {
     "dev": "next",
+    "commit": "git-cz",
     "build": "next build",
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
     "start": "serve out"
   },
-  "license": "MIT"
-}
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "serve": "11.3.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }}
