@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.1...v1.2.2) (2021-01-11)
+
+
+### Bug Fixes
+
+* **ci:** change env github token secret ([bdedea7](https://github.com/raffaele-filiberti/ssg-test/commit/bdedea7a8aa4d7af498d46f923afbaefebda6154))
+
 ## [1.2.1](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.0...v1.2.1) (2021-01-11)
 
 
