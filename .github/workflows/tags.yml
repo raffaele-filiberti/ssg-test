@@ -1,7 +1,7 @@
 name: CI to Docker Hub
 
 on:
-  push:
+  create:
     tags:
       - "v*.*.*"
 
