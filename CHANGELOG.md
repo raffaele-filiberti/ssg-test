@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.2...v1.2.3) (2021-01-11)
+
+
+### Bug Fixes
+
+* **ci:** rollback to only one yml file ([2871622](https://github.com/raffaele-filiberti/ssg-test/commit/28716227ac171c0ea3fff835838e97bdceeccce8))
+
 ## [1.2.2](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.1...v1.2.2) (2021-01-11)
 
 
