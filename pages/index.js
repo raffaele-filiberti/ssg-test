@@ -22,7 +22,7 @@ export default function IndexPage({ postList }) {
         <title>Home page</title>
       </Head>
 
-      <h1>Legendary List of posts</h1>
+      <h1>Awesome List of posts</h1>
 
       <section>
         {postList.map((post) => (

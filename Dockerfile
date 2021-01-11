@@ -1,6 +1,5 @@
 FROM node:12-slim AS dependencies
-COPY ./package.json /root/.
-COPY ./yarn.lock /root/.
+COPY ./package.json ./yarn.lock /root/
 WORKDIR /root
 RUN yarn
 
