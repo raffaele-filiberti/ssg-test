@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/raffaele-filiberti/ssg-test/compare/v1.1.0...v1.2.0) (2021-01-11)
+
+
+### Features
+
+* **home:** change title ([43ec334](https://github.com/raffaele-filiberti/ssg-test/commit/43ec33483ddf8eaed34dbc298e8a2709023dee48))
+
 # [1.1.0](https://github.com/raffaele-filiberti/ssg-test/compare/v1.0.0...v1.1.0) (2021-01-11)
 
 
