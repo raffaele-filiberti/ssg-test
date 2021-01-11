@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.0...v1.2.1) (2021-01-11)
+
+
+### Bug Fixes
+
+* **ci:** add github PAT ([099cd75](https://github.com/raffaele-filiberti/ssg-test/commit/099cd755bd5de8c900567acec87550d062043580))
+
 # [1.2.0](https://github.com/raffaele-filiberti/ssg-test/compare/v1.1.0...v1.2.0) (2021-01-11)
 
 
