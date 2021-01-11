@@ -19,7 +19,7 @@ export default function IndexPage({ postList }) {
   return (
     <main>
       <Head>
-        <title>Home page</title>
+        <title>Legendary Home page</title>
       </Head>
 
       <h1>Awesome List of posts</h1>
