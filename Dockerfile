@@ -7,7 +7,7 @@ FROM node:12-slim AS builder
 COPY ./ /root/.
 COPY --from=dependencies /root/node_modules /root/node_modules
 WORKDIR /root
-RUN yarn build
+RUN yarn build && yarn start
 
-FROM nginx AS webserver
-COPY --from=builder /root/out /usr/share/nginx/html
+# FROM nginx AS webserver
+# COPY --from=builder /root/out /usr/share/nginx/html
