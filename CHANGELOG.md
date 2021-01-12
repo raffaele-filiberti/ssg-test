@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.4...v1.2.5) (2021-01-12)
+
+
+### Bug Fixes
+
+* **ci:** test cached github actions ([a869b0e](https://github.com/raffaele-filiberti/ssg-test/commit/a869b0ee4af8ad162470d392b0dc143ca8ea8b6a))
+
 ## [1.2.4](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.3...v1.2.4) (2021-01-11)
 
 
