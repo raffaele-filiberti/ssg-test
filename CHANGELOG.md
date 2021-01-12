@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.5...v1.2.6) (2021-01-12)
+
+
+### Bug Fixes
+
+* **ci:** cache layers ([455e9d9](https://github.com/raffaele-filiberti/ssg-test/commit/455e9d92cde64cb16f6b3a89c8f784a4ac05262a))
+
 ## [1.2.5](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.4...v1.2.5) (2021-01-12)
 
 
