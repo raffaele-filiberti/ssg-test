@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.3...v1.2.4) (2021-01-11)
+
+
+### Bug Fixes
+
+* **ci:** add id for output variables ([3063f96](https://github.com/raffaele-filiberti/ssg-test/commit/3063f96c9d087584e9f03d8c7e73f7d47b3c9bdd))
+
 ## [1.2.3](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.2...v1.2.3) (2021-01-11)
 
 
