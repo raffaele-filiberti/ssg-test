@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.0...v1.3.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* **ci:** fix setting branch name conditional ([34b8945](https://github.com/raffaele-filiberti/ssg-test/commit/34b89458910bc818e3d07847130b5c0f091eb3ab))
+* **versioning:** add prefix prod or dev based on branch ([54dd27c](https://github.com/raffaele-filiberti/ssg-test/commit/54dd27c4f91b0d4ce0702b00186b0ca84025fd8b))
+
 # [1.3.0](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.6...v1.3.0) (2021-01-19)
 
 
