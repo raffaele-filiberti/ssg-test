@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.6...v1.3.0) (2021-01-19)
+
+
+### Features
+
+* **versioning:** add image version tag ([1d1c90f](https://github.com/raffaele-filiberti/ssg-test/commit/1d1c90f0e7bb84ead1ba6b870bb842c6313ce0da))
+
 ## [1.2.6](https://github.com/raffaele-filiberti/ssg-test/compare/v1.2.5...v1.2.6) (2021-01-12)
 
 
