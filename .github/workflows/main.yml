@@ -13,9 +13,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Get branch name
-        uses: nelonoel/branch-name@v1.0.1
-
-      - run: echo ${{ BRANCH_NAME }}
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
 
       - name: Semantic Release
         id: semantic   # Need an `id` for output variables
