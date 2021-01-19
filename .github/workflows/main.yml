@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Get branch name
-        run: echo "##[set-output name=value;]$(if [${GITHUB_REF#refs/heads/} == "main"]; then echo "prod"; else echo "dev"; fi)"
+        run: echo "##[set-output name=value;]if [[ ${GITHUB_REF#refs/heads/} -eq "main" ]]; then echo "prod"; else echo "dev"; fi;"
         id: branch_name
 
       - name: Semantic Release
