@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.1...v1.3.2) (2021-01-19)
+
+
+### Bug Fixes
+
+* **versioning:** fix branch name conditional output ([776cc4e](https://github.com/raffaele-filiberti/ssg-test/commit/776cc4ef6df8c58bd7c20e8d7553a45ce0d8298b))
+
 ## [1.3.1](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.0...v1.3.1) (2021-01-19)
 
 
