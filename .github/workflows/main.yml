@@ -12,6 +12,11 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2
 
+      - name: Get branch name
+        uses: nelonoel/branch-name@v1.0.1
+
+      - run: echo ${{ BRANCH_NAME }}
+
       - name: Semantic Release
         id: semantic   # Need an `id` for output variables
         uses: cycjimmy/semantic-release-action@v2
@@ -54,6 +59,7 @@ jobs:
           push: true
           tags: |
             flbrt/ssg-test:latest
+            flbrt/ssg-test:${{ steps.semantic.outputs.new_release_version }}
             flbrt/ssg-test:${{ steps.semantic.outputs.new_release_version }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
