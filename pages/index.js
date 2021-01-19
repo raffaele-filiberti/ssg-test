@@ -22,7 +22,7 @@ export default function IndexPage({ postList }) {
         <title>Legendary Home page</title>
       </Head>
 
-      <h1>List of posts updated by global Watchtower builded with github-actions cached after generate-release</h1>
+      <h1>Versioned dev img</h1>
 
       <section>
         {postList.map((post) => (
