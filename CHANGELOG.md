@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.5...v1.3.6) (2021-01-20)
+
+
+### Bug Fixes
+
+* **ci:** add github release plugin ([79890dd](https://github.com/raffaele-filiberti/ssg-test/commit/79890ddfd396e0296685e186a4e81a73791bbb43))
+
 ## [1.3.4](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.3...v1.3.4) (2021-01-20)
 
 
