@@ -58,6 +58,7 @@ jobs:
           push: true
           tags: |
             flbrt/ssg-test:latest
+            flbrt/ssg-test:${{ steps.branch_name.outputs.value }}
             flbrt/ssg-test:${{ steps.branch_name.outputs.value }}-${{ steps.semantic.outputs.new_release_version }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
