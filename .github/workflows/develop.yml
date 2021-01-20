@@ -2,7 +2,7 @@ name: CI to Docker Hub
 
 on:
   push:
-    branches: [main]
+    branches: [develop]
 
 jobs:
   build:
@@ -53,8 +53,8 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: |
-            flbrt/ssg-test:prod
-            flbrt/ssg-test:${{ steps.semantic.outputs.new_release_version }}
+            flbrt/ssg-test:latest
+            flbrt/ssg-test:dev-${{ steps.semantic.outputs.new_release_version }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
 
