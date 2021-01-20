@@ -22,7 +22,7 @@ export default function IndexPage({ postList }) {
         <title>Legendary Home page</title>
       </Head>
 
-      <h1>Versioned dev img</h1>
+      <h1>Versioned img based on branches</h1>
 
       <section>
         {postList.map((post) => (
