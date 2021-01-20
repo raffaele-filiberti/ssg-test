@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.7...v1.3.8) (2021-01-20)
+
+
+### Bug Fixes
+
+* **test:** change title ([f73e3d4](https://github.com/raffaele-filiberti/ssg-test/commit/f73e3d4d9215cd88b722953455beb82f9ec7c732))
+
 ## [1.3.7](https://github.com/raffaele-filiberti/ssg-test/compare/v1.3.6...v1.3.7) (2021-01-20)
 
 
