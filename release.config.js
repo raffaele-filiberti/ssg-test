@@ -19,7 +19,7 @@ module.exports = {
           'CHANGELOG.md',
           'package.json',
         ],
-        message: 'chore(release): ${branch.name}@${nextRelease.version} [skip ci]',
+        message: 'chore(release): ${nextRelease.version} [skip ci]',
       },
     ],
   ],
